@@ -1,6 +1,6 @@
 [package]
 name = "inti25_rust_lib1"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -11,3 +11,6 @@ repository = "https://github.com/inti25/inti25_rust_lib1"
 homepage = "https://github.com/inti25/inti25_rust_lib1"
 keywords = ["science", "mathematics", "ai", "hpc"]
 license = "Apache-2.0"
+
+[dependencies]
+inti25_solana_lib = "0.0.1"
